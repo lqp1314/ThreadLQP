@@ -1,0 +1,40 @@
+使用了 多线程 和 tcp 的联合操作
+加强了对 多线程和 网络编程的 理解  还有一些基础知识的整理
+重要的是 还有对封装的认识 有了更深的理解
+实现了 接受和发送的无关性
+线程一
+你们好
+欢迎你 来到聊天室！！！
+李清坡来了聊天室
+李清坡:你们好
+王慧来了聊天室
+王慧:你们好
+李清坡:我爱你们大家
+
+线程二
+你们好
+欢迎你 来到聊天室！！！
+王慧来了聊天室
+王慧:你们好
+我爱你们大家
+@王慧 我更爱你
+
+线程三
+你们好
+欢迎你 来到聊天室！！！
+李清坡:我爱你们大家
+李清悄悄的对你说完整信息：@王慧 我更爱你      //实现了私聊
+
+字符串   contains(CharSequence s)
+      当且仅当此字符串包含指定的char值序列时才返回true。
+       startsWith(String prefix)
+      测试此字符串是否以指定的前缀开头。
+      boolean startsWith(String prefix, int toffset)
+      测试在指定索引处开始的此字符串的子字符串是否以指定的前缀开头。
+subSequence(int beginIndex, int endIndex)
+返回一个字符序列，该序列是该序列的子序列。
+
+substring(int beginIndex, int endIndex)
+返回一个字符串，该字符串是此字符串的子字符串。
+split(String regex)
+将此字符串分割为给定的 regular expression的匹配。
